@@ -1,8 +1,4 @@
-<h1 align="center"> Gitscrpy </h1>
-
-***
-
-
+<h1 align="center"><u> Gitscrpy </u></h1>
 
 * `A python library to scrape github.`
 * `Simple to use syntax`
