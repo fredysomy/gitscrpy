@@ -1,0 +1,15 @@
+CHANGELOG.md
+CONTRIBUTING.md
+MANIFEST.in
+README.md
+setup.py
+gitscrpy/__init__.py
+gitscrpy/getgit.py
+gitscrpy.egg-info/PKG-INFO
+gitscrpy.egg-info/SOURCES.txt
+gitscrpy.egg-info/dependency_links.txt
+gitscrpy.egg-info/not-zip-safe
+gitscrpy.egg-info/requires.txt
+gitscrpy.egg-info/top_level.txt
+tests/__init__.py
+tests/gitscrpytexts.py
