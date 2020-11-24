@@ -1,45 +1,45 @@
-```python
- from gitscrpy import getgit
- # Imports the package
+.. code:: python
 
- a=getgit.gitinit("fredysomy")
- # Initialize
+     from gitscrpy import getgit
+     # Imports the package
 
-# User repository functions
+     a=getgit.gitinit("fredysomy")
+     # Initialize
 
- a.getrepo(n)
- # return the first n repos in the users repository list.
+    # User repository functions
 
- a.getrepo(2)
+     a.getrepo(n)
+     # return the first n repos in the users repository list.
 
- # [{'name': 'MarkdownIt', 'description': 'Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf +⚡ Instant Hosting in The Web.⚡', 'url': 'https://github.com/fredysomy/MarkdownIt', 'stars': '13'}, {'name': 'fredysomy', 'url': 'https://github.com/fredysomy/fredysomy', 'stars': '4'}]
-a.getrepo(1)
- # {'name': 'MarkdownIt', 'description': 'Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf +⚡ Instant Hosting in The Web.⚡', 'url': 'https://github.com/fredysomy/MarkdownIt', 'stars': '13'}
+     a.getrepo(2)
 
-# User details functions
+     # [{'name': 'MarkdownIt', 'description': 'Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf +âš¡ Instant Hosting in The Web.âš¡', 'url': 'https://github.com/fredysomy/MarkdownIt', 'stars': '13'}, {'name': 'fredysomy', 'url': 'https://github.com/fredysomy/fredysomy', 'stars': '4'}]
+    a.getrepo(1)
+     # {'name': 'MarkdownIt', 'description': 'Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf +âš¡ Instant Hosting in The Web.âš¡', 'url': 'https://github.com/fredysomy/MarkdownIt', 'stars': '13'}
 
-a.getuser("star")
-# Retrun no of stars user have 
-# 172
+    # User details functions
 
-a.getuser("name")
-# Returns the name of the User
-# Fredy Somy
+    a.getuser("star")
+    # Retrun no of stars user have 
+    # 172
 
-a.getuser("u_name")
-# Returns the Username of the User
-# fredysomy
+    a.getuser("name")
+    # Returns the name of the User
+    # Fredy Somy
 
-a.getuser("follower")
-# Returns no of followers the User
-# 25
+    a.getuser("u_name")
+    # Returns the Username of the User
+    # fredysomy
 
-a.getuser("following")
-# Returns the no of following the User
-# 60
+    a.getuser("follower")
+    # Returns no of followers the User
+    # 25
 
-a.getuser("img")
-# Returns the link to the User avatar
-# https://hfsjdhfjshd.com
+    a.getuser("following")
+    # Returns the no of following the User
+    # 60
 
-```
+    a.getuser("img")
+    # Returns the link to the User avatar
+    # https://hfsjdhfjshd.com
+
